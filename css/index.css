@@ -1,0 +1,36 @@
+main:first-child header h2 {
+    color: white;
+    font-size: 3vw;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: #65ae84;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main section img {
+    flex: none;
+    width: 20vw;
+}
+
+main hr {
+    transform: rotate(90deg);
+    width: 80vh;
+    height: 2px;
+    border: 2px solid white;
+    flex-grow: 1;
+}
+main section {
+    flex-grow: 1;
+    height: 60vh;
+    width: 50vw;
+}
+
+main:first-child header {
+    width: 30vw;
+    align-items: center;
+    justify-content: space-evenly
+}
