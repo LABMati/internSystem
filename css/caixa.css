@@ -1,0 +1,23 @@
+.fa-plus {
+    color: green;
+    font-size: 2vw;
+}
+
+.fa-minus {
+    color: red;
+    font-size: 2vw;
+}
+
+.showcase-body {
+    display: flex;
+    flex-direction: column;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    height: 2vw;
+}
+
+table{
+    border-spacing: 0;
+}

@@ -1,0 +1,7 @@
+[29-May-2018 17:22:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1102] Incorrect database name 'u535468846_lab	' in /home/u535468846/public_html/sistemaInterno/pdo.php:3
+Stack trace:
+#0 /home/u535468846/public_html/sistemaInterno/pdo.php(3): PDO->__construct('mysql:host=mysq...', 'u535468846_boss', 'lab124578', Array)
+#1 /home/u535468846/public_html/sistemaInterno/caixa.php(3): include('/home/u53546884...')
+#2 {main}
+  thrown in /home/u535468846/public_html/sistemaInterno/pdo.php on line 3
+[29-May-2018 17:23:22 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/u535468846/public_html/sistemaInterno/caixa.php on line 11

@@ -20,3 +20,9 @@ body {
 .columns {
     flex-direction: column;
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
