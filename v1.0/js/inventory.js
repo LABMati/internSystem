@@ -11,7 +11,7 @@ form.bt.addEventListener('click', ev => {
 
 function register() {
     var xhr = new XMLHttpRequest()
-    let url = 'http://127.0.0.1/lab/register.php?no=' + form.inputs[0].value
+    let url = 'http://127.0.0.1/lab/inventory.php?no=' + form.inputs[0].value
     if (form.inputs[1].value != '')
         url += '&nu=' + form.inputs[1].value
     if (form.inputs[2].value != '')
