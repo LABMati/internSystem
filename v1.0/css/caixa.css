@@ -1,10 +1,10 @@
 .fa-plus {
-    color: green;
+    color: white;
     font-size: 2vw;
 }
 
 .fa-minus {
-    color: red;
+    color: white;
     font-size: 2vw;
 }
 
@@ -14,10 +14,80 @@
 }
 
 th, td {
-    border: 1px solid #ccc;
     height: 2vw;
+    border: 1px solid white;
+    transition: 0.1 ease;
+}
+
+tr{
+    background: #65ae84;
+}
+
+td{
+    padding-left: 0.5vw;
+}
+
+tr:hover{
+    background: #4d8364;
+}
+
+tr:first-child{
+    border-left: 0px solid red !important   ;
+}
+
+tr:last-child{
+    border-left: 0px solid red !important;
 }
 
 table{
+    color: white;
     border-spacing: 0;
+    background: #65ae84;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+div.insertCaixa {
+    background: #65ae84;
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .5vw;
+}
+
+div.insertCaixa input[type=text], div.insertCaixa input[type=date]{
+    font-size: .9vw;
+    height: 6vh;
+    border-radius: 3vw;
+    border: none;
+    padding-left: 1vw;
+    transition: .2s ease;
+}
+
+div.insertCaixa input[type=date]{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.add {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    border: none;
+    background: #4d8364;
+}
+
+button.rem {
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    border: none;
+    background: #ca2027;
+}
+
+
